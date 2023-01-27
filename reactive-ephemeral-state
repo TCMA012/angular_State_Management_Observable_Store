@@ -1,0 +1,5 @@
+Research on reactive-ephemeral-state in component oriented frontend frameworks - Demonstrated with Angular and RxJS
+https://github.com/BioPhoton/research-reactive-ephemeral-state-in-component-oriented-frontend-frameworks
+https://github.com/BioPhoton/research-reactive-ephemeral-state-in-component-oriented-frontend-frameworks/tree/master/src/app/examples/demo-basics
+ephemeral state is just one of many names for data structures that needed to be managed on the client under special conditions. Other synonyms are a 
+transient state, UI state, local state, component state, short term data

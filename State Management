@@ -1,0 +1,80 @@
+Simplest Angular State Management with Observable Service Pattern
+observable data service
+https://javascript.plainenglish.io/angular-state-management-with-observable-service-pattern-27b18538f4c3
+https://github.com/sunnyy02/HeroesWithSimpleStateObservable
+rxjs": "^5.5.0
+
+Single source of truth
+Unidirectional data flow
+Immutable state at the component level
+
+A demo Hero application
+
+a read-only observable state$ is exposed instead of the BehaviorSubject, to enforce the one-way data flow from store service to the components. 
+A setState method is provided as protected, it is the only way to update state from theHeroStore service.
+
+spread operator is used to create a copy of state before updating the state, to ensure immutability.
+
+the action methods trigger the api service calls (side effects) and Rxjs observables are chained to handle the result of those side effects.
+
+split your store service into different services by global or feature modules, and you may also make use of Rxjs operators like 
+combinelatest
+ or 
+mergeAll
+ to map/slice the state for the UI to consume.
+
+
+
+cd /media/tcma/SeagateBackupPlusDrive/angular
+
+mkdir stateManagement && cd "$_"
+
+
+
+https://github.com/sunnyy02/HeroesWithSimpleStateObservable
+
+ 
+curl -OL https://github.com/sunnyy02/HeroesWithSimpleStateObservable/archive/master.zip
+
+
+
+unzip *.zip
+
+
+=
+
+RxAngular | RxAngular (rx-angular.io)
+RxAngular State, The Component Reactive Store | Marmicode Tasting Session #1
+https://github.com/rx-angular/rx-angular
+
+
+
+ElfJs, It's framework agnostic state management built on top of RxJS and has simple API, it works well with Angular
+
+
+
+https://github.com/BioPhoton/rxjs-state
+
+=
+
+https://dev.to/angular/simple-yet-powerful-state-management-in-angular-with-rxjs-4f8g
+https://stackblitz.com/edit/rxjs-angular-state-manager?file=src%2Fapp%2Fshared%2Fstate.service.ts,package.json
+
+https://www.maestralsolutions.com/angular-application-state-management-you-do-not-need-external-data-stores/
+
+=
+
+helper library CRUD RxJs
+a helper library that simplifies creating RxJs services.
+https://github.com/adriandavidbrand/ngx-ez/tree/master/projects/ez-state
+
+
+https://adrianbrand.medium.com/angular-state-management-using-services-built-with-ez-state-9b23f16fb5ae
+The idea behind ez-state is most application logic in a web app revolves around CRUD actions that call a backend REST API. The cache stores the data for our service in the value property and there are flags that represent the state that the cache is currently in.
+The template clones the user object before binding to it so we are not mutating the data held in the cache, if we didn’t clone the object any form mutations on the object would persist in the cache even if we hit cancel.
+The clone pipe is a simple pipe that returns a clone of the object which can be used as a throw away view variable.
+
+
+StackBlitz demo - good demo for Users
+https://stackblitz.com/edit/angular-ivy-8t3cqc
+

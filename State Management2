@@ -1,0 +1,34 @@
+Angular Model - Simple state management with minimalist API, one way data flow, multiple model support and immutable data exposed as RxJS Observable.
+https://github.com/angular-extensions/model
+Tomas Trajan
+Miroslav Král
+Good doc
+
+
+
+
+https://github.com/tastejs/angular-movies
+https://angular-movies-a12d3.web.app/list/category/popular
+RxAngular
+data source the The Movie Database (TMDB) API
+
+
+
+Suguru Inatomi
+https://github.com/lacolaco/reactive-store
+https://github.com/lacolaco/reactive-store/tree/main/examples/example-angular/src/app/examples
+
+
+
+https://javascript.plainenglish.io/easy-and-custom-angular-rxjs-state-management-under-50-lines-of-code-a2e7188da926
+https://github.com/touhidrahman/rxjs-state-subject
+
+
+
+
+https://garage.sekrab.com/posts/rxjs-based-angular-state-management
+https://angular-state-local.stackblitz.io/
+
+
+
+https://ssougnez.github.io/ng-store/

@@ -1,0 +1,30 @@
+State Management Observable Store
+angular_State_Management_Observable_Store
+Observable Store provides a simple way to manage state in Angular, React, Vue.js and other front-end applications. 
+Dan Wahlin
+https://github.com/DanWahlin/Observable-Store
+"peerDependencies": {
+    "rxjs": ">=6.4.0 <8"
+},
+"devDependencies": {
+    "@types/jasmine": "^3.8.2",
+    "jasmine": "^3.9.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "jasmine-ts": "^0.4.0",
+    "ts-node": "^10.2.1",
+    "typescript": "4.3.5",
+    "rxjs": "^7.3.0"
+}
+
+https://blog.codewithdan.com/simplifying-front-end-state-management-with-observable-store/
+Observable Store only has 1 dependency – RxJS
+
+=
+
+State Management Is Easy Now!? An Introduction to Observable Store
+
+https://dev.to/stevewhitmore/state-management-is-easy-now-an-introduction-to-observable-store-15ij
+
+https://github.com/stevewhitmore/observable-store-poc
+14.2.0
+rxjs": "~7.5.0

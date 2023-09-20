@@ -1,0 +1,5 @@
+you should only use State Management(Injection of store) in the smart components and not in the dumb components. Always use input and output for sharing data to dumb child components. Otherwise your dumb are not dumb anymore. They should not know the use case. If you use the state Management in the dumb components they know their usecase and that means that they are not dumb anymore.
+
+Injecting your "store" (no matter if using a library or just a service) into many if your components is a serious code smell.
+
+Only inject services into your few smart components. Most other components should absolutely community with (and only with) @Input and @Output. This way they truly reusable without a hatte + it forces you until a really beautiful and sane architecture imo - this is also known as the Container/Presenter pattern or also smart/dumb components

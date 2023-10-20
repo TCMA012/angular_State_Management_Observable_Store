@@ -43,6 +43,10 @@ unzip *.zip
 
 =
 
+https://ngxs.io/
+
+
+
 RxAngular | RxAngular (rx-angular.io)
 RxAngular State, The Component Reactive Store | Marmicode Tasting Session #1
 https://github.com/rx-angular/rx-angular
@@ -54,6 +58,18 @@ ElfJs, It's framework agnostic state management built on top of RxJS and has sim
 
 
 https://github.com/BioPhoton/rxjs-state
+
+
+
+https://mini-rx.io/
+https://github.com/spierala/mini-rx-store/discussions/188
+https://github.com/spierala/angular-spotify-mini-rx
+https://github.com/spierala/jira-clone-angular-mini-rx
+https://github.com/spierala/angular-state-management-comparison
+
+It seems ok.
+The picture is clearer when larger applications use the MiniRx Signal Store.
+e.g. https://github.com/spierala/angular-spotify-mini-rx and https://github.com/spierala/jira-clone-angular-mini-rx.
 
 =
 

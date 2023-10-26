@@ -1,0 +1,21 @@
+https://blog.brecht.io/managing-state-in-angular/
+
+https://ngrx.io/
+https://netbasal.gitbook.io/akita/
+https://github.com/ngxs/store
+
+https://netbasal.com/a-comprehensive-guide-to-angular-onpush-change-detection-strategy-5bac493074a4
+
+<router-outlet>
+<!-- user detail modal rendered in here -->
+</router-outlet>
+
+https://blog.strongbrew.io/components-demystified/#smart-vs-dumb-components
+
+https://blog.strongbrew.io/Cancellable-optimistic-updates-in-Angular2-and-Redux/
+
+https://blog.strongbrew.io/How-we-made-our-app-real-time-in-6-lines-of-code/
+
+export class CountryService {
+    countries$ = this.httpClient.get('countries').pipe(shareReplay(1));
+}
